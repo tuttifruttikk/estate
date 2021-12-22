@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Registration</title>
+    <link rel="stylesheet" href="../styles/main.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="header_name">Sign Up</div>
+    <form action="registration" method="post" class="form">
+        <div class="input_form">
+            <label class="label">Login<br>
+                <input type="text" name="login" class="input" placeholder="login" required/>
+            </label>
+        </div>
+        <div class="input_form">
+            <label class="label">Password<br>
+                <input type="password" name="password" class="input" placeholder="password" required/>
+            </label>
+        </div>
+        <div class="input_form">
+            <input type="hidden" name="role" value="student">
+        </div>
+        <div class="input_form">
+            <input type="submit" value="Register" class="menu_button"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>

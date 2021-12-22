@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="header_name">Create new table</div>
+    <form action="create" method="post" class="form">
+        <div class="input_form">
+            <label class="label">Title:<br>
+                <input type="text" name="tableName" class="input" required>
+            </label><br>
+        </div>
+        <div class="input_form">
+            <label class="label">Rows:<br>
+                <input type="number" min="1" max="100" name="tableRows" class="input" required>
+            </label><br>
+        </div>
+        <div class="input_form">
+            <label class="label">Columns:<br>
+                <input type="number" min="1" max="100" name="tableColumns" class="input" required>
+            </label><br>
+        </div>
+        <div class="input_form">
+            <input type="submit" name="submit" value="submit" class="menu_button">
+        </div>
+    </form>
+</div>

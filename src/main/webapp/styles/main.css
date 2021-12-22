@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+input, textarea, select {
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    padding-top: 25px;
+}
+
+.header_name, .error_text {
+    margin: 25px auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+}
+
+.error_text > h1 {
+
+}
+.error_text > p{
+    font-size: 22px;
+    color: orangered;
+}
+
+.header_menu {
+    margin-top: 15px;
+
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu_button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border-color: white;
+}
+.menu_button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.delete_button {
+    text-decoration: none;
+    width: 140px;
+    line-height: 45px;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border-color: white;
+}
+
+.delete_button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.menu_button-ann {
+    width: 300px;
+}
+
+.input_form {
+    margin-top: 15px;
+}
+
+.label {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+}
+
+.input {
+    margin:5px;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    box-sizing:border-box;
+}
+
+.table {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: #524f4e;
+    align-items: center;
+}
+
+.delete_button {
+    color: #524f4e;
+}
+
+.form_buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_button {
+    border: 1px solid #524f4e;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.form {
+    margin-top: 15px;
+}
+
+.toMain {
+    display: flex;
+}
+
+table {
+    border: none;
+    border-collapse:collapse;
+}
+
+td {
+    border-bottom: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+}
+
+td:last-child {
+    border-right: none;
+}
